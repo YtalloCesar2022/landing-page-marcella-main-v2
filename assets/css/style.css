@@ -1,0 +1,110 @@
+:root{
+    --fonte-principal: 'Open Sans', sans-serif;
+    --fonte-secundaria: 'Shadows Into Light Two', cursive;
+    --fonte-nav-color: #0d0101;
+}
+
+body{
+    font-family: var(--fonte-principal);
+}
+
+
+.background__nav{
+    background-image: url(../img/nav-background.jpg);
+    background-repeat: no-repeat;
+    height: 50%;
+    background-size: 100%;
+    background-position: center top 80%;
+    height: 90vh;
+    margin-bottom: 5vh;
+
+}
+
+.logo__pagina{
+    height: 15%;
+    width: 15%;
+}
+
+.menu__navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    
+}
+
+.menu__navegacao a{
+    color: var(--fonte-nav-color);
+    padding: 1rem;
+    font-size: 1.5rem;
+ 
+}
+
+.menu__link:hover{
+    border-bottom: 4px solid #fa5cf5;
+    background-color: #e6b8b8;
+    opacity: 0.8;
+    border-radius: 20%;
+}
+
+.menu__link--border{
+    border-right: 1px solid  var(--border-menu);
+}
+
+.texto__menu{
+    text-align: center;
+    padding-top: 11rem;
+    font-family: var(--fonte-secundaria);
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: #120112;
+
+}
+
+.texto__menu h1{
+    padding-top: 0.5rem;
+   
+}
+
+.sobre__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.sobre__imagem{
+    height: 50%;
+    width: 50%;
+    border-radius: 500px;
+
+}
+
+.sobre__texto{
+    position: relative;
+    text-align: center; 
+    margin: 0 0;
+    padding: 5rem 4.5rem 5rem 2rem;
+    border: 1px solid #0d0101; 
+    transform: translateX(30px);
+    bottom: -30px;
+ }
+
+.sobre__texto p{
+   font-size: 1.5rem; 
+}
+
+.sobre__texto h2{
+    font-family: var(--fonte-secundaria);
+    font-size: 4rem;
+    
+}
+.borda{
+    position: relative;
+    background: #b8dee6;
+    margin-left: 2rem;
+    
+    
+    
+}
