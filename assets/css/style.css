@@ -1,13 +1,13 @@
 :root{
     --fonte-principal: 'Open Sans', sans-serif;
     --fonte-secundaria: 'Shadows Into Light Two', cursive;
-    --fonte-nav-color: #0d0101;
+
 }
 
 body{
     font-family: var(--fonte-principal);
-    background-color: #f4f5f5;
-    
+    background-image: url(../img/4.jpg);
+    color:#2573a7;
 }
 
 
@@ -36,9 +36,10 @@ body{
 }
 
 .menu__navegacao a{
-    color: var(--fonte-nav-color);
+    color: #000000;
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
  
 }
 
@@ -91,6 +92,7 @@ body{
     border: 1px solid #0d0101; 
     transform: translateX(30px);
     bottom: -30px;
+    color: #000000;
  }
 
 .sobre__texto p{
@@ -114,6 +116,7 @@ body{
     margin-top: 5rem;
     padding-bottom: 2rem;
     font-weight: 800;
+    font-size: 1.8rem;
     
 }
 
@@ -121,6 +124,7 @@ body{
     text-align: center;
     padding-bottom: 2rem;
     font-weight: 700;
+    font-size: 1.8rem;
 
 
 
@@ -130,29 +134,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 10rem;
-    font-size: 1.2rem;
-    
-    
-    
+    margin: 0 25rem;
+    padding-bottom: 5rem;
+
 
 }
 
 .story__text--align{
-    padding: 0 1rem;
-    margin-bottom: 3rem;
+    padding: 0 1rem 1rem;
+    font-size: 1.5rem;
     
 
 }
 
-
-.botao__read{
-    text-align: center;
-    margin: 0 35rem 5rem 35rem;
-    width: 10rem;
-    height: 3.5rem;
-    font-size: 1.3rem;
-}
 
 .imagem__main{
     height: 80vh;
@@ -174,6 +168,7 @@ body{
     height: 40%;
     width: 50%;
     margin-left: 3rem;
+    border-radius: 100px;
 
 }
 
@@ -184,6 +179,7 @@ body{
     border: 1px solid #0d0101; 
     transform: translateX(30px);
     bottom: -10px;
+    color: #000000;
  }
 
 .sobre__texto--alternativo p{
@@ -199,7 +195,7 @@ body{
 
 .borda--alternativo{
     position: relative;
-    background: #b8dc1a3d;
+    background: #bce40d3d;
     margin-left: 2rem;
     
 }
@@ -250,7 +246,7 @@ body{
 
 
 .service__imagem3{
-    margin: 0 4rem 0 0;
+    margin: 0 7rem 0 0;
 }
 
 .service__coaching{
@@ -263,32 +259,33 @@ body{
 }
 
 .service__branding{
-    background:#fa5cf5;
+    background:#d6b8d5;
 }
 
 .service__titulo{
     padding: 1.5rem 9rem;
 }
 
+.service__text{
+    line-height: 2;
+}
 
 .text1{ 
+   font-size: 1.4rem;
    padding: 0rem 5rem;
 }
 
 .text2{ 
+    font-size: 1.4rem;
     padding: 0rem 5rem;
 }
 
 
 .text3{ 
+    font-size: 1.4rem;
     padding: 0rem 5rem 1rem;
 }    
 
-
-.service__button{
-    margin: 0.5rem 9.5rem;
-    
-}
 
 .rodape{
     margin: 2rem 0 0rem 0;
@@ -306,12 +303,14 @@ body{
 
 .imagem__contato{
     width: 400px;
-    height: 400px;
+    height: 450px;
     border-top-right-radius: 100px;
+    
 }
 
 .conteudo-beneficios {
-	padding-left: 5rem;
+	padding-left: 4rem;
+    font-size: 1.3rem;
 	
 }
 
@@ -325,7 +324,7 @@ body{
 }
 
 .itens:before{
-	content: "\2705"
+	content: "\2b50";
 }
 
 .formacao__titulo{
@@ -334,19 +333,20 @@ body{
     padding-bottom: 3rem;
     padding-top: 2rem;
     text-align: center;
+    
 }
 
 .contato__titulo{
     font-size: 30px;
     color:#2573a7;
-    padding-bottom: 1rem;
-    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .contato__texto{
-    font-size: 20px;
-    color:#0b3b5b;
+    color:#2573a7;
     padding-bottom: 1rem;
+    padding-right: 0.5rem;
+    font-size: 1.5rem;
 }
 
 .container__contato{
@@ -463,5 +463,5 @@ form label, form legend {
     text-align: center;
     padding: 0.5rem 0 1rem 0;
     border-top: solid 0.5px #785a5a;
-    color:#2e247d;
+    color:#2573a7;
 } 
