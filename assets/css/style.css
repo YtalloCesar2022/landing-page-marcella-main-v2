@@ -134,7 +134,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 25rem;
+    margin: 0 15rem;
     padding-bottom: 5rem;
 
 
@@ -246,7 +246,7 @@ body{
 
 
 .service__imagem3{
-    margin: 0 7rem 0 0;
+    margin: 0 4rem 0 0;
 }
 
 .service__coaching{
@@ -267,7 +267,7 @@ body{
 }
 
 .service__text{
-    line-height: 2;
+    line-height: 1;
 }
 
 .text1{ 
@@ -302,9 +302,10 @@ body{
 }
 
 .imagem__contato{
+    padding-top: 4rem;
     width: 400px;
-    height: 450px;
-    border-top-right-radius: 100px;
+    height: 550px;
+    border-top-right-radius: 150px;
     
 }
 
