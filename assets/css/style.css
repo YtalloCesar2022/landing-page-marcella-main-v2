@@ -14,11 +14,9 @@ body{
 .background__nav{
     background-image: url(../img/nav-background.jpg);
     background-repeat: no-repeat;
-    height: 50%;
     background-size: 100%;
-    background-position: center top 80%;
+    background-position: center top 90%;
     height: 90vh;
-    margin-bottom: 5vh;
 
 }
 
@@ -38,7 +36,7 @@ body{
 .menu__navegacao a{
     color: #000000;
     padding: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
  
 }
